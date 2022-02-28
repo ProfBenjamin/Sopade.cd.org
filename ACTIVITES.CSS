@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+  .body{
+    background-color: rgb(151, 23, 23);
+  }
+  .banner{
+    width: 100%;
+    height: 30vh;
+    position: relative;
+    overflow: hidden;
+   
+  }
+
+  /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 20%;
+  min-height: 20%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(193, 197, 193, 0.863);
+  color: #f1f1f1;
+  width: 40%;
+  padding: 20px;
+}
+
+/* Style the button used to pause/play the video */
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: rgb(131, 128, 128);
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+  
+  
+  
+  
+  .navbar{
+    display: flex;
+    padding: 2% 0%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,0.65);
+     position: fixed;
+     top: 0;
+     left: 0;
+     flex-direction: row;
+     z-index: 99;
+     width: 100%;
+     height: 45px;
+    
+  }
+  
+  .navbar .fa{
+    display: inline-block;
+    color: #fff;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  } 
+  .logo{
+    flex-basis: 10%;
+  }
+  .logo img{
+    width: 150px;
+    cursor: pointer;
+  }
+  .menu-icons{
+    flex: 1;
+    align-items: center;
+    text-align: right;
+  }
+  
+  .menu-icons .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  
+  .menu-icons .nav-links ul li a{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* .header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/s3.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  } */
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav img{
+    width: 150px;
+     padding-bottom: 100px; 
+  }
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    padding-bottom: 50px;
+  }
+  .nav-links ul li a{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(70, 194, 59);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+body {
+  background-color: #111;
+}
+
+.title {
+  font-family: "Montserrat";
+  text-align: center;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  letter-spacing: 1px;
+}
+
+h1 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  line-height: .75;
+  margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #FFF;
+  transition: .35s ease-in-out;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat";
+}
+
+.white-mode:hover {
+  background-color: #FFF;
+  color: #122;
+}
+.less{
+  height: 80vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/graduate1.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  
+}
+.lessons{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  
+}
+h1{
+  font-size: 36px;
+  font-weight: 300;
+}
+p{
+  color: rgb(20, 19, 19);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.lesson-col{
+  flex-basis: 31%;
+  background: rgb(241, 236, 236);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #000;
+}
+.lesson-col:hover{
+  box-shadow: 0 0 20px 0px rgba(76, 163, 54, 0.795);
+}
+@media(max-width: 700px){
+  .row{
+      flex-direction: column;
+  }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url(foot.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+h5{
+  color: white;
+}
